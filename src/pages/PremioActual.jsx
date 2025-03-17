@@ -9,12 +9,12 @@ function PremioActual() {
         <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="flex justify-center gap-2">
             {[...Array(4)].map((_, i) => (
-              <input key={i} className="w-12 h-12 text-center border rounded-full" maxLength="1" />
+              <input key={i} className="w-40 h-40 text-center border rounded-full" maxLength="1" />
             ))}
           </div>
           <div className="flex justify-center gap-2">
-            <input className="w-16 h-12 text-center border" maxLength="2" />
-            <input className="w-12 h-12 text-center border" maxLength="1" />
+            <input className="w-40 h-40 text-center border rounded-full" maxLength="2" />
+            <input className="w-40 h-40 text-center border rounded-full" maxLength="1" />
           </div>
         </div>
       </div>

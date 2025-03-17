@@ -23,15 +23,3 @@ function App() {
   );
 }
 export default App;
-
-// function App() {
-//   return (
-//     <div className="flex justify-center items-center h-screen bg-[#1a428a]">
-//       <h1 className="text-4xl font-bold text-[#e9be6c]">
-//         LOTERÍA DE MANIZALES
-//       </h1>
-//     </div>
-//   );
-// }
-
-// export default App;
