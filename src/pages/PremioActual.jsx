@@ -37,7 +37,7 @@ function PremioActual() {
 
   return (
     <div className="mt-4 text-center">
-      <p className="text-xl">PREMIO _______ POR ________ MILLONES DE PESOS</p>
+      <p className="text-xl">PREMIO _______ POR __________ </p>
       <div className="grid grid-cols-2 mt-4 text-lg">
         <div className="text-center">NÚMERO</div>
         <div className="text-center">SERIE</div>
