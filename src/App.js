@@ -1,11 +1,37 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import PremioActualPage from "./pages/PremioActual";
+import PremiosSorteados from "./pages/PremiosSorteados";
+
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-blue-500">
-      <h1 className="text-4xl font-bold text-white">
-        ¡Tailwind CSS está funcionando! 🚀
-      </h1>
-    </div>
+    <Router>
+      <div className="bg-[#1a428a] text-[#e9be6c] min-h-screen">
+        <NavBar />
+        <div className="container mx-auto p-4">
+          <div className="flex justify-between text-lg font-bold">
+            <span>SORTEO:</span>
+            <span>FECHA:</span>
+          </div>
+          <Routes>
+            <Route path="/" element={<PremioActualPage />} />
+            <Route path="/premios-sorteados" element={<PremiosSorteados />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
-
 export default App;
+
+// function App() {
+//   return (
+//     <div className="flex justify-center items-center h-screen bg-[#1a428a]">
+//       <h1 className="text-4xl font-bold text-[#e9be6c]">
+//         LOTERÍA DE MANIZALES
+//       </h1>
+//     </div>
+//   );
+// }
+
+// export default App;
