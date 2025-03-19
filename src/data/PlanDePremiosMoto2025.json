@@ -1,0 +1,230 @@
+[
+    {
+      "id": 1,
+      "titulo": "SECO 36",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 2,
+      "titulo": "SECO 35",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 3,
+      "titulo": "SECO 34",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 4,
+      "titulo": "SECO 33",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 5,
+      "titulo": "SECO 32",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 6,
+      "titulo": "SECO 31",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 7,
+      "titulo": "SECO 30",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 8,
+      "titulo": "SECO 29",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 9,
+      "titulo": "SECO 28",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 10,
+      "titulo": "SECO 27",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 11,
+      "titulo": "SECO 26",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 12,
+      "titulo": "SECO 25",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 13,
+      "titulo": "SECO 24",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 14,
+      "titulo": "SECO 23",
+      "valor": "20 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 15,
+      "titulo": "SECO 22",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 16,
+      "titulo": "SECO 21",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 17,
+      "titulo": "SECO 20",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 18,
+      "titulo": "SECO 19",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 19,
+      "titulo": "SECO 18",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 20,
+      "titulo": "SECO 17",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 21,
+      "titulo": "SECO 16",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 22,
+      "titulo": "SECO 15",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 23,
+      "titulo": "SECO 14",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 24,
+      "titulo": "SECO 13",
+      "valor": "30 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 25,
+      "titulo": "SECO 12",
+      "valor": "60 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 26,
+      "titulo": "SECO 11",
+      "valor": "60 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 27,
+      "titulo": "SECO 10",
+      "valor": "60 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 28,
+      "titulo": "SECO 09",
+      "valor": "60 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 29,
+      "titulo": "SECO 08",
+      "valor": "60 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 30,
+      "titulo": "SECO 07",
+      "valor": "80 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+      "id": 31,
+      "titulo": "SECO 06",
+      "valor": "80 MILLONES DE PESOS",
+      "plan": 2
+    },
+    {
+        "id": 32,
+        "titulo": "SECO 05",
+        "valor": "80 MILLONES DE PESOS",
+        "plan": 2
+    },
+    {
+        "id": 33,
+        "titulo": "SECO 04",
+        "valor": "80 MILLONES DE PESOS",
+        "plan": 2
+      },
+      {
+        "id": 34,
+        "titulo": "SECO 03",
+        "valor": "80 MILLONES DE PESOS",
+        "plan": 2
+      },
+      {
+        "id": 35,
+        "titulo": "SECO 02",
+        "valor": "100 MILLONES DE PESOS",
+        "plan": 2
+      },
+      {
+        "id": 36,
+        "titulo": "SECO 01",
+        "valor": "100 MILLONES DE PESOS",
+        "plan": 2
+      },
+      {
+        "id": 37,
+        "titulo": "MAYOR",
+        "valor": "2.200 MILLONES DE PESOS",
+        "plan": 2
+      },
+      {
+        "id": 38,
+        "titulo": "PROMOCIONAL",
+        "valor": "MOTO",
+        "plan": 2
+      }
+  ]

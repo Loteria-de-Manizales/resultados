@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaUserCircle, FaRandom, FaListUl } from "react-icons/fa";
+import { FaBars, FaUserCircle, FaLightbulb, FaListUl, FaKeyboard } from "react-icons/fa";
 import logo from "../assets/logo.png";
 import letras from "../assets/letras.png";
 
@@ -17,8 +17,9 @@ function NavBar() {
           <FaBars size={24} />
         </button>
         <div className={`md:flex gap-4 ${menuOpen ? "block" : "hidden"}`}>
-          <Link to="/" className="block md:inline"><FaRandom size={24} /></Link>
+          <Link to="/" className="block md:inline"><FaKeyboard size={24} /></Link>
           <Link to="/premios-sorteados" className="block md:inline"><FaListUl size={24} /></Link>
+          <Link to="/atajos-teclado" className="block md:inline"><FaLightbulb size={24} /></Link>
         </div>
         <FaUserCircle size={32} className="hidden md:block" />
       </nav>
