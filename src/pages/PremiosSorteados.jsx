@@ -32,16 +32,16 @@ function PremiosSorteados() {
       {/* Incluir el componente SorteoInfo debajo del NavBar */}
       <SorteoInfo />
       
-      <div className="mt-4 text-center">
-        <h1 className="text-8xl mb-4">Premios Sorteados</h1>
+      <div className="mt-2 sm:mt-3 md:mt-4 text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-2 sm:mb-3 md:mb-4">Premios Sorteados</h1>
         <div className="overflow-x-auto">
           <table className="table-auto w-full border-collapse border border-[#e9be6c]">
             <thead>
               <tr className="bg-[#e9be6c] text-[#1a428a]">
-                <th className="border border-[#e9be6c] px-4 py-2 text-5xl">PREMIO</th>
-                <th className="border border-[#e9be6c] px-4 py-2 text-5xl">VALOR</th>
-                <th className="border border-[#e9be6c] px-4 py-2 text-5xl">NÚMERO</th>
-                <th className="border border-[#e9be6c] px-4 py-2 text-5xl">SERIE</th>
+                <th className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">PREMIO</th>
+                <th className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">VALOR</th>
+                <th className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">NÚMERO</th>
+                <th className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">SERIE</th>
               </tr>
             </thead>
             <tbody>
@@ -50,10 +50,10 @@ function PremiosSorteados() {
 
                 return (
                   <tr key={premio.titulo} className="border border-[#e9be6c]">
-                    <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premio.titulo}</td>
-                    <td className="border border-[#e9be6c] px-4 py-2 text-2xl">{premio.valor}</td>
-                    <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premioGuardado.numero || "-"}</td>
-                    <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premioGuardado.serie || "-"}</td>
+                    <td className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">{premio.titulo}</td>
+                    <td className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-lg sm:text-xl md:text-xl lg:text-2xl">{premio.valor}</td>
+                    <td className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">{premioGuardado.numero || "-"}</td>
+                    <td className="border border-[#e9be6c] px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">{premioGuardado.serie || "-"}</td>
                   </tr>
                 );
               })}
@@ -68,7 +68,8 @@ function PremiosSorteados() {
 export default PremiosSorteados;
 
 // import { useState, useEffect } from "react";
-// import premios from "../data/PlanDePremiosOrdinario2025.json";
+// import premios from "../data/PlanDePremiosMoto2025.json";
+// import SorteoInfo from "../components/SorteoInfo"; // Importar el nuevo componente
 
 // function PremiosSorteados() {
 //   const [premiosSorteados, setPremiosSorteados] = useState({});
@@ -96,82 +97,41 @@ export default PremiosSorteados;
 //   }, []);
 
 //   return (
-//     <div className="mt-4 text-center">
-//       <h1 className="text-xl mb-4">Premios Sorteados</h1>
-//       <div className="overflow-x-auto">
-//         <table className="table-auto w-full border-collapse border border-gray-300">
-//           <thead>
-//             <tr className="bg-gray-200">
-//               <th className="border border-gray-300 px-4 py-2">PREMIO</th>
-//               <th className="border border-gray-300 px-4 py-2">VALOR</th>
-//               <th className="border border-gray-300 px-4 py-2">NÚMERO</th>
-//               <th className="border border-gray-300 px-4 py-2">SERIE</th>
-//             </tr>
-//           </thead>
-//           <tbody>
-//             {premios.map((premio) => {
-//               const premioGuardado = premiosSorteados[premio.titulo] || {};
+//     <div>
+//       {/* Incluir el componente SorteoInfo debajo del NavBar */}
+//       <SorteoInfo />
+      
+//       <div className="mt-4 text-center">
+//         <h1 className="text-8xl mb-4">Premios Sorteados</h1>
+//         <div className="overflow-x-auto">
+//           <table className="table-auto w-full border-collapse border border-[#e9be6c]">
+//             <thead>
+//               <tr className="bg-[#e9be6c] text-[#1a428a]">
+//                 <th className="border border-[#e9be6c] px-4 py-2 text-5xl">PREMIO</th>
+//                 <th className="border border-[#e9be6c] px-4 py-2 text-5xl">VALOR</th>
+//                 <th className="border border-[#e9be6c] px-4 py-2 text-5xl">NÚMERO</th>
+//                 <th className="border border-[#e9be6c] px-4 py-2 text-5xl">SERIE</th>
+//               </tr>
+//             </thead>
+//             <tbody>
+//               {premios.map((premio) => {
+//                 const premioGuardado = premiosSorteados[premio.titulo] || {};
 
-//               return (
-//                 <tr key={premio.titulo} className="border border-gray-300">
-//                   <td className="border border-gray-300 px-4 py-2">{premio.titulo}</td>
-//                   <td className="border border-gray-300 px-4 py-2">{premio.valor}</td>
-//                   <td className="border border-gray-300 px-4 py-2">{premioGuardado.numero || "-"}</td>
-//                   <td className="border border-gray-300 px-4 py-2">{premioGuardado.serie || "-"}</td>
-//                 </tr>
-//               );
-//             })}
-//           </tbody>
-//         </table>
+//                 return (
+//                   <tr key={premio.titulo} className="border border-[#e9be6c]">
+//                     <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premio.titulo}</td>
+//                     <td className="border border-[#e9be6c] px-4 py-2 text-2xl">{premio.valor}</td>
+//                     <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premioGuardado.numero || "-"}</td>
+//                     <td className="border border-[#e9be6c] px-4 py-2 text-5xl">{premioGuardado.serie || "-"}</td>
+//                   </tr>
+//                 );
+//               })}
+//             </tbody>
+//           </table>
+//         </div>
 //       </div>
 //     </div>
 //   );
 // }
 
 // export default PremiosSorteados;
-
-// // import { useState, useEffect } from "react";
-// // import premios from "../data/PlanDePremiosOrdinario2025.json";
-
-// // function PremiosSorteados() {
-// //   const [premiosSorteados, setPremiosSorteados] = useState({});
-
-// //   useEffect(() => {
-// //     const storedData = JSON.parse(localStorage.getItem("premiosSorteados")) || {};
-// //     setPremiosSorteados(storedData);
-// //   }, []);
-
-// //   return (
-// //     <div className="mt-4 text-center">
-// //       <h1 className="text-xl mb-4">Premios Sorteados</h1>
-// //       <div className="overflow-x-auto">
-// //         <table className="table-auto w-full border-collapse border border-gray-300">
-// //           <thead>
-// //             <tr className="bg-gray-200">
-// //               <th className="border border-gray-300 px-4 py-2">PREMIO</th>
-// //               <th className="border border-gray-300 px-4 py-2">VALOR</th>
-// //               <th className="border border-gray-300 px-4 py-2">NÚMERO</th>
-// //               <th className="border border-gray-300 px-4 py-2">SERIE</th>
-// //             </tr>
-// //           </thead>
-// //           <tbody>
-// //             {premios.map((premio) => {
-// //               const premioGuardado = premiosSorteados[premio.titulo] || {}; // Se usa el título como clave
-
-// //               return (
-// //                 <tr key={premio.titulo} className="border border-gray-300">
-// //                   <td className="border border-gray-300 px-4 py-2">{premio.titulo}</td>
-// //                   <td className="border border-gray-300 px-4 py-2">{premio.valor}</td>
-// //                   <td className="border border-gray-300 px-4 py-2">{premioGuardado.numero || "-"}</td>
-// //                   <td className="border border-gray-300 px-4 py-2">{premioGuardado.serie || "-"}</td>
-// //                 </tr>
-// //               );
-// //             })}
-// //           </tbody>
-// //         </table>
-// //       </div>
-// //     </div>
-// //   );
-// // }
-
-// // export default PremiosSorteados;
